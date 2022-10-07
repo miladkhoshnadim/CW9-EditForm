@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Cw9-formEdit.css">
+</head>
+
+<body>
+    <main class="main">
+        <section>
+            <div class="divinputs" >
+                <label class="label" for="">First Name :
+                    <input id="firstname" type="text">
+                </label>
+                <label class="label" for="">Last Name :
+                    <input id="lastname" type="text">
+                </label>
+                <button class="button" id="add" >Add</button>
+                <button class="button hiden" id="edit">Edit</button>
+            </div>
+        </section>
+        <section class="secTable">
+            <button class="button" id="deletCHeced">DELET</button>
+            <table class="tabel">
+                <thead>
+                    <tr>
+                        <th class="border"><input id="checkedAll" type="checkbox"></th>
+                        <th class="border">First name</th>
+                        <th class="border">Last name</th>
+                        <th class="border">Options</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    <!-- <tr>
+                        <td class="border"><input type="checkbox"></td>
+                        <td class="border">Milad</td>
+                        <td class="border">Khoshnadim</td>
+                        <td class="border"><span>DELETE</span> <span>EDIT</span></td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="Cw9-formEdit.js"></script>
+</body>
+
+</html>
